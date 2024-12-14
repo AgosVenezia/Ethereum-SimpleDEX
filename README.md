@@ -1,6 +1,8 @@
 # SimpleDEX Frontend
 
+
 ![ETHKipu Logo](https://campus.ethkipu.org/pluginfile.php/1/theme_moove/logo/1730136052/ethkipu-logo.svg)
+
 
 ¡Bienvenido al frontend de SimpleDEX! Esta es una aplicación web que interactúa con el contrato inteligente de SimpleDEX desplegado en Ethereum, permitiendo a los usuarios:
 
@@ -8,6 +10,7 @@
 - **Retirar Liquidez** del pool.
 - **Intercambiar Tokens** (Token A por Token B y viceversa).
 - **Obtener Precios de Tokens** de Token A y Token B.
+
 
 ## Características
 
@@ -17,21 +20,24 @@
 - **Intercambiar Tokens**: Convierte Token A en Token B o Token B en Token A.
 - **Obtener el Precio de Tokens**: Consulta el precio actual de Token A y Token B.
 
+
 ## Demo en Vivo
 
 Puedes probar la aplicación aquí: [SimpleDEX](https://agosvenezia.github.io/Ethereum-SimpleDEX/).
+
 
 ## Requisitos
 
 - **MetaMask** (o cualquier billetera Ethereum) instalada y configurada en tu navegador.
 - Integración con **Web3** para interactuar con la red de Ethereum.
 
+
 ## Instrucciones de Instalación
 
 1. Clona este repositorio:
 
     ```bash
-    git clone https://github.com/tu-usuario/Ethereum-SimpleDEX.git
+    git clone https://github.com/AgosVenezia/Ethereum-SimpleDEX.git
     cd Ethereum-SimpleDEX
     ```
 
@@ -42,6 +48,7 @@ Puedes probar la aplicación aquí: [SimpleDEX](https://agosvenezia.github.io/Et
     - Retirar liquidez especificando cuántos tokens deseas retirar.
     - Intercambiar tokens (Token A por Token B o Token B por Token A).
     - Consultar el precio de Token A o Token B.
+
 
 ## Cómo Funciona
 
@@ -60,17 +67,23 @@ Los usuarios pueden intercambiar Token A por Token B y viceversa. La aplicación
 ### 5. **Obtener el Precio de Token**
 La función "Obtener Precio" consulta el precio actual de Token A o Token B desde el contrato.
 
+
 ## Visión General de los Archivos
 
 - **index.html**: El archivo principal de HTML que proporciona la estructura y los formularios para interactuar con el contrato de SimpleDEX.
 - **styles.css**: Estilos personalizados para el frontend.
 - **scripts.js**: JavaScript para interactuar con la blockchain de Ethereum, incluyendo funciones para agregar/retirar liquidez, intercambiar tokens y consultar precios.
 
+
 ## Problemas Conocidos
 
 - La aplicación requiere MetaMask o una extensión de billetera Ethereum para su funcionalidad completa.
 - Algunas funciones pueden estar limitadas según el estado actual de la blockchain (por ejemplo, tarifas de gas o congestión de la red).
 
+
 ## Contribuciones
 
 Siéntete libre de bifurcar este repositorio y enviar pull requests. ¡Las contribuciones son bienvenidas para mejorar la funcionalidad o agregar nuevas características a la aplicación!
+
+
+#### [A project by Agostina Celina Venezia Napolillo for Ethereum Developer - Talento Tech](https://campus.ethkipu.org/)
