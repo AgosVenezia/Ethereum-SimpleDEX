@@ -1,0 +1,17 @@
+body { 
+    font-family: 'Calibri', Arial, sans-serif; 
+} 
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#price {
+    margin-top: 86px;
+}
+
+#swap {
+    background-color: #716b94;
+    border-color: #716b94;
+}
